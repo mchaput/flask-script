@@ -344,7 +344,7 @@ will show an error message because the ``-c`` option does not belong to the
 
 You can attach same-named options to different levels; this allows you to
 add an option to your app setup code without checking whether it conflicts with
-a command:
+a command::
 
     @manager.option('-n', '--name', dest='name', default='joe')
     @manager.option('-c', '--clue', dest='clue', default='clue')
